@@ -1,0 +1,180 @@
+@import url("./reset.css");
+@import url("./fonts.css");
+
+body {
+  font-family: PlayfairDisplay, sans-serif;
+  background-color: black;
+}
+
+* {
+  color: white;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 9vw;
+  height: 6vw;
+  background: url("../img/logo.svg") no-repeat transparent center / contain;
+}
+
+.nav-link {
+  font-size: 1.8vw;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.section {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100vh;
+}
+
+.section__text-wrapper {
+  width: 80%;
+  margin-bottom: 165px;
+  z-index: 1;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.title {
+  font-size: 9.5vw;
+  line-height: 10vw;
+}
+
+.description {
+  font-size: 1.8vw;
+  margin-top: 40px;
+}
+
+.layout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 20%);
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 30px;
+  margin-bottom: 60px;
+  padding: 10px 30px;
+  font-family: sans-serif;
+
+  font-size: 12px;
+  color: black;
+  background-color: white;
+
+  z-index: 1;
+}
+
+.btn-outline {
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline:hover {
+  color: black;
+  background-color: white;
+}
+
+.section-one {
+  background: url("../img/1.png") center / cover;
+}
+
+.section-two {
+  background: url("../img/2.png") center / cover;
+}
+
+.section-three {
+  background: url("../img/3.png") center / cover;
+}
+
+.section-four {
+  background: url("../img/4.png") center / cover;
+}
+
+.section-five {
+  background: url("../img/5.png") center / cover;
+}
+
+.section-action {
+  height: 50vh;
+}
+
+.section-action__title,
+.section-action__description {
+  text-align: center;
+}
+
+.section-action__title {
+  font-size: 4vw;
+}
+
+.section-action__description {
+  font-size: 0.9vw;
+  margin-top: 5px;
+}
+
+.section-action .section__text-wrapper {
+  margin-bottom: 60px;
+}
+
+.footer {
+  padding: 50px 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.footer__text {
+  font-family: sans-serif;
+  font-size: 0.9vw;
+  color: #666;
+}
